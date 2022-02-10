@@ -50,6 +50,12 @@ let evensArr = []
 
 //Code Here
 
+nums.forEach(function(item, index, array){
+  if(index%2 === 0){
+    evensArr.push(index)
+  }
+})
+console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
