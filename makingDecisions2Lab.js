@@ -116,11 +116,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
-listOfNumbers.forEach(function(index){
-  if (index%3 === 0){
-    console.log(`${index} is divisible by 3`)
-  }else console.log(index)
-})
+// listOfNumbers.forEach(function(index){
+//   if (index%3 === 0){
+//     console.log(`${index} is divisible by 3`)
+//   }else console.log(index)
+// })
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
@@ -132,7 +132,12 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+lettersReverse = letters.reverse()
+console.log(`${lettersReverse}`)
 
+for (let z = letters.length - 1; z >= 0; z--){
+  console.log(letters.length[z])
+}
 
 ////////// Advanced Problems //////////
 
@@ -182,3 +187,13 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+for (let i = 1; i <= 100; i++){
+  if( i % 3 === 0 && i % 5 === 0){
+    console.log('DevMountain')
+    }else if (i%3 === 0){
+      console.log('Dev')
+    }else if (i%5 === 0){
+      console.log('Mountain')
+    }else console.log(i)
+}
