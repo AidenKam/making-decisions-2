@@ -136,7 +136,7 @@ lettersReverse = letters.reverse()
 console.log(`${lettersReverse}`)
 
 for (let z = letters.length - 1; z >= 0; z--){
-  console.log(letters.length[z])
+  console.log(letters[z])
 }
 
 ////////// Advanced Problems //////////
@@ -145,7 +145,7 @@ for (let z = letters.length - 1; z >= 0; z--){
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = 'J'
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -159,6 +159,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+switch (letterGrade) {
+  case 'A':
+    console.log(`The student is doing excellently`)
+    break;
+  case 'B':
+    console.log(`The student is doing well`)
+    break;
+  case 'C':
+    console.log(`The student is doing alright`)
+    break;
+  case 'D':
+    console.log('The student is not doing very well')
+    break;
+  case 'F':
+    console.log(`The student is failing`)
+    break;
+  default:
+    console.log(`Not an eligible grade`)
+}
 
 
 
