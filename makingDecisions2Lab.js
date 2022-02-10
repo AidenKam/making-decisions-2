@@ -33,7 +33,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-
+family.forEach(function(item, index, array){
+console.log(item, index)
+})
 
 ////////// PROBLEM 4 //////////
 
